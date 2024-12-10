@@ -20,7 +20,7 @@ const Sidebar = () => {
       <h3>Nlp</h3>
         <FontAwesomeIcon icon={faRobot} className="sidebar-icon" />
       </NavLink>
-      <NavLink to="/shift-schedule" activeClassName="active">
+      <NavLink to="/chatbot" activeClassName="active">
       <h3>Chatbot</h3>
         <FontAwesomeIcon icon={faComment} className="sidebar-icon" />
       </NavLink>

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import './App.css';
 import Nlp from './pages/Nlp';
+import Chatbot from './pages/Chatbot';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} /> 
             <Route path="/nlp" element={<Nlp />} />
+            <Route path="/chatbot" element={<Chatbot />} />
           </Routes>
           </div>
         </div>
