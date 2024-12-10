@@ -1,0 +1,70 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 180px;
+  background-color: #f1f9fd;
+  color: rgb(37, 37, 37);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.logo-container img {
+  width: 80%;
+  /* Adjust the width as necessary */
+  max-width: 150px;
+  height: auto;
+}
+
+/* Styling for individual NavLinks */
+.sidebar a {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  margin: 16px -20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  
+  width: 110%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style the text (h3) */
+.sidebar a h3 {
+  margin-left: 10px;
+  font-size: 16px;
+  margin-bottom: 0;
+  transition: color 0.3s ease;
+}
+
+/* Sidebar icons */
+.sidebar-icon {
+  font-size: 20px;
+  padding: 8px;
+}
+
+/* Active link styling */
+.sidebar a.active {
+  background-color: #aee4f5;
+
+}
+
+
+.sidebar a:hover {
+  background-color: #dff2ff !important;
+  color: rgb(179, 177, 177);
+}

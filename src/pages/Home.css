@@ -1,0 +1,37 @@
+.file-drop-zone {
+    display: flex;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    width: 24rem;
+    height: 20rem;
+}
+
+.file-drop-zone.dragging {
+    background-color: #e9f7ff;
+}
+
+.file-drop-zone i {
+    color: #007bff;
+}
+.upload{
+    font-size: 36px;
+    margin-top: 10px;
+}
+.file-drop-zone p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0eea6;
+    width: 20rem;
+    height: 10rem;
+}
