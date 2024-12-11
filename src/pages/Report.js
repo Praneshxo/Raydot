@@ -1,6 +1,6 @@
 import React from 'react'
-import './Nlp.css';
-function Nlp() {
+import './Report.css';
+function Report() {
     return (
         <div className='nlp'>
             <h2>hii</h2>
@@ -8,4 +8,5 @@ function Nlp() {
     )
 }
 
-export default Nlp
+export default Report
+

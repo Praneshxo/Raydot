@@ -1,7 +1,45 @@
-.main{
-    background-color: rgb(191, 220, 236);
+.header-main{
+    display: fixed;
+    background-color: #e2eef5;
 }
 .title{
-    margin-top: 1%;
-    padding-left: 10%;
+    margin-bottom: -4vh;  
+    margin-left: 4rem; 
+}
+.links {
+    display: flex;
+    margin-left: 34vw;
+    justify-content: space-between;
+    gap: 8vw;
+}
+.head-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.link-right{
+    margin-left: auto;
+    padding-right: 2vw;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+ a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+ }
+
+ .profile{
+    width: 2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: rgb(95, 100, 100);
+ }
+.image-my{
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 50%;
 }

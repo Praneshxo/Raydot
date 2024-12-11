@@ -1,37 +1,37 @@
-.file-drop-zone {
+.Home-main{
     display: flex;
-    border: 2px dashed #007bff;
-    border-radius: 5px;
-    padding: 2rem;
-    margin: 4rem;
+    justify-content: center;    
+}
+
+.right-box, .left-box{
+    display: flex;
+    margin-top: 4rem;
+    
+    
     align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-    width: 24rem;
-    height: 20rem;
+    background-color: #ddf8ff;
+    width: 34rem;
+    height: 40rem;
 }
-
-.file-drop-zone.dragging {
-    background-color: #e9f7ff;
+.center-box{
+    
+    background-color: #fffecd;
+    display: flex;
+    width: 60rem;
+    height: 50rem;
 }
-
-.file-drop-zone i {
-    color: #007bff;
-}
-.upload{
-    font-size: 36px;
-    margin-top: 10px;
-}
-.file-drop-zone p {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
 .box{
+    background-color: rgb(245, 220, 220);
+    width: 10vw;
+    height: 8vh;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.metrics {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f0eea6;
-    width: 20rem;
-    height: 10rem;
+    flex-wrap: wrap;  /* Allow wrapping of items */
+    gap: 40px;  /* Space between the boxes */
+    justify-content: center;  /* Center the boxes horizontally */
 }
