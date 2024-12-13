@@ -1,6 +1,7 @@
 .Home-main{
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    background-color: #ffffff; 
 }
 
 .right-box, .left-box{
@@ -9,13 +10,13 @@
     
     
     align-items: center;
-    background-color: #ddf8ff;
+    background-color: #ffffff;
     width: 34rem;
     height: 40rem;
 }
 .center-box{
     
-    background-color: #fffecd;
+    background-color: #ffffff;
     display: flex;
     width: 60rem;
     height: 50rem;
@@ -35,3 +36,135 @@
     gap: 40px;  /* Space between the boxes */
     justify-content: center;  /* Center the boxes horizontally */
 }
+/* App.css */
+.app-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5fbff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .sidebar {
+    
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  .human{
+    
+    
+    margin-right: -5rem;
+    margin-top: -16rem;
+    width: 50vw;
+    height: auto;
+    opacity: 70%;
+  }
+
+  
+  .organ-list {
+   
+    width: 23rem;
+    list-style: none;
+    padding: 0.4rem;
+    margin: 0;
+  }
+  
+  .organ-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    gap: 88px;
+  }
+  
+  .organ-item.highlighted {
+    color: #ff6f61;
+  }
+  
+  .treatment-section {
+    margin-top: 4rem;
+    background: #d7f6ff;
+    padding: 1.2rem;
+    border-radius: 10px;
+  }
+  .pt-re {
+    margin-top:1rem;
+    background: #d7f6ff;
+    padding: 1.2rem;
+    border-radius: 10px;
+  }
+  .center-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .human-body-svg {
+    width: 80%;
+    height: auto;
+  }
+  
+  .right-panel {
+    background: transparent;
+    
+    padding: 20px;
+    
+  }
+  
+  .appointment-section,
+  .doctors-section {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-section{
+    background-color: #d7f6ff;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  .calendar {
+    margin-top: 10px;
+  }
+  
+  .dates-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .dates-grid span {
+    padding: 10px;
+    text-align: center;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .dates-grid .selected {
+    background: #3f51b5;
+    color: white;
+  }
+  
+  .doctors-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .doctors-section li {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0;
+    border: #333 solid 1px;
+    padding: 1rem;
+    border-radius: 24px ;
+  }
+  
+    
+    .doc-cont{
+    margin-top: 1rem;
+    background-color: #d7f6ff;
+    width: 24rem;
+    padding: 2rem;
+    border-radius: 12px;
+  }

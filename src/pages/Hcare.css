@@ -1,3 +1,105 @@
-body{
-    background-color: aqua;
-}
+
+.bento-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #003366; /* Darker text for contrast */
+    height: 100%;
+  }
+  
+  .bento-title {
+    text-align: center;
+    color: #005b99;
+    margin-bottom: 20px;
+  }
+  
+  .bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .bento-item {
+    background: #ffffff;
+    border: 1px solid #b3d9ff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .bento-item.patient-info {
+    grid-column: span 10;
+    display: flex;
+    height: 8rem;
+  }
+  .bento-item.patient-info p{
+        margin-top: 4rem;
+        
+        width: 40rem;
+  }
+  .bento-item.patient-info h2{
+    width: 20rem;
+    height: auto;
+  }
+  .bento-item.diet-plan {
+    grid-column: span 4;
+    height: 14rem;
+  }
+  
+  .bento-item.healthcare-advice {
+    grid-column: span 6;
+    height: 18rem;
+  }
+  
+  .bento-item.funny-messages {
+    grid-column: span 4;
+    font-size: 0.9em;
+    margin-top: -60px;
+    background-color: rgb(255, 253, 230);
+  }
+  .bento-item.additional-info{
+    grid-column: span 6;
+    font-size: 0.9em;
+    height: 10rem;
+  }
+  
+  .bento-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .bento-item h2 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .bento-item p,
+  .bento-item li {
+    margin: 5px 0;
+  }
+  
+  .bento-item ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .bento-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .chart-placeholder {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .chart-placeholder img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

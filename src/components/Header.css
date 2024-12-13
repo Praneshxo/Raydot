@@ -1,6 +1,7 @@
 .header-main{
     display: fixed;
-    background-color: #e2eef5;
+    background-color: #e3f2ffe5;
+    border: #bbb solid 1px;
 }
 .title{
     margin-bottom: -4vh;  
